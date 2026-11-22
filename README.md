@@ -16,6 +16,12 @@ Redirects the primary YouTube header logo to point directly to the Subscriptions
 * **Target:** `https://www.youtube.com/*`
 * **Features:** Dynamic SPA element mutation observer, automatic link and title attribute update.
 
+### 3. RuTracker Search for Kinopoisk and IMDb
+Adds a “RuTracker” button to film and series pages on Kinopoisk and IMDb. The button searches RuTracker using the detected title and release year.
+
+* **Target:** `https://www.kinopoisk.ru/*`, `https://kinopoisk.ru/*`, `https://www.imdb.com/*`, `https://imdb.com/*`
+* **Features:** Automatic title and year detection, native-style Kinopoisk button placement, inline IMDb placement, dynamic SPA updates.
+
 ## Installation
 
 1. Install a browser extension for running userscripts (e.g., [Tampermonkey](https://www.tampermonkey.net/)).
